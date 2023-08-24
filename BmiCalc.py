@@ -22,7 +22,10 @@ class Calc():
 
     
 height = input("身長を入力してください >")
+t_height = float(height) / 100
+print("あなたの身長は{}mですね" .format(round(t_height,1)))
 weight = input("体重を入力してください >")
-calc = Calc(height,weight)
+print("あなたの体重は{}ですね".format(weight))
+calc = Calc(t_height,int(weight))
 bmi = calc.BmiCalc()
 print("あなたのBIMは{}です".format(round(bmi,1)))
