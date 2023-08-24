@@ -8,3 +8,4 @@ elif intNum % 5 == 0:
   print("Buzz")
 else:
   print(intNum)
+  
