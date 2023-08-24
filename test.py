@@ -19,6 +19,7 @@ class Calc():
         bmi = self.__weight / (self.__height * self.__height)
         return bmi
 
+
     
 height = input("身長を入力してください >")
 weight = input("体重を入力してください >")
